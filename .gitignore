@@ -1,0 +1,60 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.vscode/
+
+# Project specific
+/app/config/config.php
+/database/credentials.php
+*.log
+.env
+.env.local
+.env.production
+
+# Don't ignore config sample
+!app/config/config.php.sample
+
+# Temp files
+*.tmp
+*.temp
+/cache/
+/tmp/
+/logs/
+
+# Deployment
+/deploy/
+/build/
+/dist/
+
+# Test files (à supprimer après tests)
+test_*.php
+reset_*.php
+set_password.php
+
+# Composer
+/vendor/
+composer.lock
+
+# npm
+/node_modules/
+package-lock.json
+
+# Uploads
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Session files
+/sessions/
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*~
